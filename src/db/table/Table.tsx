@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import useTodoStore from './jotai';
-import './App2.css'; 
+import './app2.css'; 
 
 const App2 = () => {
   const { todos, addTodo, toggleTodo, deleteTodo,  editTodo } = useTodoStore();
