@@ -1,0 +1,115 @@
+/* App2.css */
+.container {
+	max-width: 36rem; /* 576px */
+	margin: 0 auto;
+	padding: 1rem;
+ }
+ 
+ .header {
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 1rem;
+ }
+ 
+ .form {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	padding: 1rem;
+	border: 1px solid #ccc;
+	border-radius: 0.375rem;
+ }
+ 
+ .input, .textarea {
+	padding: 0.5rem;
+	border: 1px solid #ccc;
+	border-radius: 0.375rem;
+ }
+ 
+ .button,.add {
+	background-color: #4299e1;
+	color: white;
+	padding: 0.5rem;
+	border-radius: 0.375rem;
+	cursor: pointer;
+	border: none;
+ }
+ 
+
+ .todos-list {
+	padding: 1rem;
+ }
+ 
+ .no-todos {
+	color: #718096;
+ }
+ 
+ .todos {
+	list-style: none;
+	padding-left: 0;
+ }
+ 
+ .todo-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.75rem;
+	border: 1px solid #ccc;
+	border-radius: 0.375rem;
+	margin-bottom: 0.5rem;
+ }
+ 
+ .todo-content {
+	display: flex;
+	gap: 1rem;
+ }
+ 
+ .checkbox {
+	cursor: pointer;
+ }
+ 
+ .todo-title {
+	font-size: 1.125rem;
+	font-weight: bold;
+ }
+ 
+ .completed {
+	text-decoration: line-through;
+	color: #a0aec0;
+ }
+ 
+ .todo-description {
+	font-size: 0.875rem;
+	color: #718096;
+ }
+ 
+ .delete-button {
+	background-color: #e53e3e;
+	color: white;
+	padding: 0.25rem 0.75rem;
+	border-radius: 0.375rem;
+	cursor: pointer;
+	border:none
+ }
+ .edit-button {
+	background-color: #6be53e;
+	color: white;
+	padding: 0.25rem 0.75rem;
+	border-radius: 0.375rem;
+	cursor: pointer;
+	border:none
+ }
+ 
+
+ 
+ .clear-button {
+	width: 100%;
+	background-color: #a0aec0;
+	color: white;
+	padding: 0.5rem;
+	border-radius: 0.375rem;
+	cursor: pointer;
+ }
+ 
+ 
